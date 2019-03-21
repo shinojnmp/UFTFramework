@@ -1,0 +1,8 @@
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_FileExists : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestRunResults\10-Mar-2018\TestResult_3102018125100PM\Log_125100PM.txt exists
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_CreateTextFile : Successfully created Text File C:\AutoFramework\TestRunResults\10-Mar-2018\TestResult_3102018125100PM\Log_125100PM.txt
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_CloseProcessByname : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process EXCEL.EXE
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_CloseProcessByname : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process IEXPLORE.EXE
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_Driver : Verifying the test resources

@@ -1,0 +1,48 @@
+Mar 10 2018 : 12:50:35 PM  : INFO : fn_FileExists : Inside the Function
+Mar 10 2018 : 12:50:35 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestRunResults\10-Mar-2018\TestResult_3102018125035PM\Log_125035PM.txt exists
+Mar 10 2018 : 12:50:35 PM  : DEBUG : fn_CreateTextFile : Successfully created Text File C:\AutoFramework\TestRunResults\10-Mar-2018\TestResult_3102018125035PM\Log_125035PM.txt
+Mar 10 2018 : 12:50:35 PM  : INFO : fn_CloseProcessByname : Inside the Function
+Mar 10 2018 : 12:50:35 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process EXCEL.EXE
+Mar 10 2018 : 12:50:35 PM  : INFO : fn_CloseProcessByname : Inside the Function
+Mar 10 2018 : 12:50:35 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process IEXPLORE.EXE
+Mar 10 2018 : 12:50:35 PM  : INFO : fn_Driver : Verifying the test resources
+Mar 10 2018 : 12:50:36 PM  : INFO : fn_ValidateFrameworResources : Inside the Function
+Mar 10 2018 : 12:50:36 PM  : INFO : fn_FileExists : Inside the Function
+Mar 10 2018 : 12:50:36 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestDriver\TestDriver.xls exists
+Mar 10 2018 : 12:50:36 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 12:50:38 PM  : DEBUG : fn_ValidateExcelSheetName : Driver sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 12:50:38 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 12:50:41 PM  : DEBUG : fn_ValidateExcelSheetName : TestScript sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 12:50:41 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 12:50:44 PM  : DEBUG : fn_ValidateExcelSheetName : TestData sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 12:50:44 PM  : INFO : fn_ValidateFrameworResources : Inside the Function
+Mar 10 2018 : 12:50:44 PM  : INFO : fn_FileExists : Inside the Function
+Mar 10 2018 : 12:50:44 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestDriver\TestDriver.xls exists
+Mar 10 2018 : 12:50:44 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 12:50:46 PM  : DEBUG : fn_ValidateExcelSheetName : Driver sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 12:50:46 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 12:50:48 PM  : DEBUG : fn_ValidateExcelSheetName : TestScript sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 12:50:49 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 12:50:51 PM  : DEBUG : fn_ValidateExcelSheetName : TestData sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 12:50:51 PM  : INFO : fn_Driver : import the driver sheet to data table (GLobal sheet)
+Mar 10 2018 : 12:50:51 PM  : INFO : fn_ImportDriverSheet : Inside the Function
+Mar 10 2018 : 12:50:51 PM  : DEBUG : fn_Driver : Navigating through the data table and checking for execution status = YES
+Mar 10 2018 : 12:50:51 PM  : DEBUG : fn_Driver : Test Execution start time 3/10/2018 12:50:51 PM
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_ValidateFrameworFolders : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_FolderExist : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_FolderExist : Folder C:\AutoFramework\Configuration exists
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_FolderExist : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_FolderExist : Folder C:\AutoFramework\FunctionLibrary exists
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_FolderExist : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_FolderExist : Folder C:\AutoFramework\ObjectRepository exists
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_FolderExist : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_FolderExist : Folder C:\AutoFramework\TestDriver exists
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_FolderExist : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_FolderExist : Folder C:\AutoFramework\TestRunResults exists
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_FolderExist : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_FolderExist : Folder C:\AutoFramework\TestRunResults\10-Mar-2018 exists
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_CreateFolder : C:\AutoFramework\TestRunResults\10-Mar-2018 Folder already exist
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_FolderExist : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : INFO : fn_FolderExist : Inside the Function
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_FolderExist : Folder C:\AutoFramework\TestRunResults\10-Mar-2018\TestResult_3102018125100PM exists
+Mar 10 2018 : 12:51:00 PM  : DEBUG : fn_CreateFolder : Successfully created folder C:\AutoFramework\TestRunResults\10-Mar-2018\TestResult_3102018125100PM

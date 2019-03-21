@@ -1,0 +1,5 @@
+﻿<Properties>
+  <WatchEntry0 value="strString" />
+  <WatchEntry1 value="Err.clear" />
+  <WatchEntry2 value="err.description" />
+</Properties>

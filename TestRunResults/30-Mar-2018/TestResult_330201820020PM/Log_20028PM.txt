@@ -1,0 +1,5 @@
+Mar 30 2018 : 2:00:31 PM  : FNENTRY : fn_FileExists : Inside the Function
+Mar 30 2018 : 2:00:31 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestRunResults\30-Mar-2018\TestResult_330201820020PM\Log_20028PM.txt exists
+Mar 30 2018 : 2:00:31 PM  : DEBUG : fn_CreateTextFile : Successfully created Text File C:\AutoFramework\TestRunResults\30-Mar-2018\TestResult_330201820020PM\Log_20028PM.txt
+Mar 30 2018 : 2:01:20 PM  : DEBUG : fnCopyHTMLTemplateToResultFile : Read from the HTML template completed
+Mar 30 2018 : 2:01:23 PM  : DEBUG : fnCopyHTMLTemplateToResultFile : Copy content from the HTML template to Test result file completed

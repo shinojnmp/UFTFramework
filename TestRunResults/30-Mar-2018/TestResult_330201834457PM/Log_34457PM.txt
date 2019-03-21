@@ -1,0 +1,5 @@
+Mar 30 2018 : 3:44:57 PM  : FNENTRY : fn_FileExists : Inside the Function
+Mar 30 2018 : 3:44:57 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestRunResults\30-Mar-2018\TestResult_330201834457PM\Log_34457PM.txt exists
+Mar 30 2018 : 3:44:57 PM  : DEBUG : fn_CreateTextFile : Successfully created Text File C:\AutoFramework\TestRunResults\30-Mar-2018\TestResult_330201834457PM\Log_34457PM.txt
+Mar 30 2018 : 3:47:14 PM  : ERROR : fn_CreateResultFile :  Run Time error 
+Mar 30 2018 : 3:47:14 PM  : ERROR : fn_Driver : Unable to create the result File

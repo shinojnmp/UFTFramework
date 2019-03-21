@@ -1,0 +1,28 @@
+1. Close all excels & IE - systemuti.closeproessbyname
+2. Verify the FOlder structure
+3. Verify the test resources
+4. import the driver sheet to data table (GLobal sheet)
+5. Create the result path, HTNL reports (log file  & Excel later HTML)
+6. Navigate through the data table and chek for execution status = YES
+7. if yes , reset the global variables like TC status, TS count (PFW)
+8. Take the required details from the driver sheet  for future use
+9. ise the DSN connection and slect the test script from the  details from the test script page and dynamically add to the dynamic array
+10. use the DSN connection and select the test data details from the test data page & add to the dictionay object
+11. Add the test case name and SI no to the local table
+12. Check for the test condition, look in the data table whether the test case mentioned in the data base passed or not
+13. Execute the function , report the failure if any ( Function= False) - Also reports the necesaay steps, should beable to enable / disable the reporting using a falg
+14. Add the data to the local data table, whcih is required for the subsequent TCs
+15. Consolidate the result, Paseed or Failed
+16. Error Handler - 
+17 . Final reporting (Howmany passed/Failed etc)
+18. Kill the objects
+19. Generi function for the common object. 
+
+SI_NO
+TestCaseName
+TestScenario
+Iteration
+Execute
+TestCondition
+ErrorHandler
+TestScnarioDescription

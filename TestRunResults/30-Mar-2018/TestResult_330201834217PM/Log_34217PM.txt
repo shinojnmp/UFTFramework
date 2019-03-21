@@ -1,0 +1,42 @@
+Mar 30 2018 : 3:42:17 PM  : FNENTRY : fn_FileExists : Inside the Function
+Mar 30 2018 : 3:42:17 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestRunResults\30-Mar-2018\TestResult_330201834217PM\Log_34217PM.txt exists
+Mar 30 2018 : 3:42:17 PM  : DEBUG : fn_CreateTextFile : Successfully created Text File C:\AutoFramework\TestRunResults\30-Mar-2018\TestResult_330201834217PM\Log_34217PM.txt
+Mar 30 2018 : 3:42:17 PM  : DEBUG : fnCopyHTMLTemplateToResultFile : Read from the HTML template completed
+Mar 30 2018 : 3:42:17 PM  : DEBUG : fnCopyHTMLTemplateToResultFile : Copy content from the HTML template to Test result file completed
+Mar 30 2018 : 3:42:44 PM  : FNENTRY : fn_CloseProcessByname : Inside the Function
+Mar 30 2018 : 3:42:44 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process EXCEL.EXE
+Mar 30 2018 : 3:42:44 PM  : FNENTRY : fn_CloseProcessByname : Inside the Function
+Mar 30 2018 : 3:42:49 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process IEXPLORE.EXE
+Mar 30 2018 : 3:42:49 PM  : INFO : fn_Driver : Verifying the test resources
+Mar 30 2018 : 3:42:49 PM  : FNENTRY : fn_ValidateFrameworResources : Inside the Function
+Mar 30 2018 : 3:42:49 PM  : FNENTRY : fn_FileExists : Inside the Function
+Mar 30 2018 : 3:42:49 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestDriver\TestDriver.xls exists
+Mar 30 2018 : 3:42:49 PM  : FNENTRY : fn_ValidateExcelSheetName : Inside the Function
+Mar 30 2018 : 3:42:53 PM  : DEBUG : fn_ValidateExcelSheetName : Driver sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 30 2018 : 3:42:53 PM  : FNENTRY : fn_ValidateExcelSheetName : Inside the Function
+Mar 30 2018 : 3:42:56 PM  : DEBUG : fn_ValidateExcelSheetName : TestScript sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 30 2018 : 3:42:56 PM  : FNENTRY : fn_ValidateExcelSheetName : Inside the Function
+Mar 30 2018 : 3:42:59 PM  : DEBUG : fn_ValidateExcelSheetName : TestData sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 30 2018 : 3:42:59 PM  : INFO : fn_Driver : import the driver sheet to data table (GLobal sheet)
+Mar 30 2018 : 3:42:59 PM  : INFO : fn_ImportDriverSheet : Inside the Function
+Mar 30 2018 : 3:42:59 PM  : DEBUG : fn_Driver : Navigating through the data table and checking for execution status = YES
+Mar 30 2018 : 3:42:59 PM  : DEBUG : fn_Driver : Test Execution start time 3/30/2018 3:42:59 PM
+Mar 30 2018 : 3:42:59 PM  : DEBUG : fn_Driver : Data Table Row 1 Found Test execution status as YES
+Mar 30 2018 : 3:42:59 PM  : DEBUG : fn_Driver : Deleting the content from the test script function array
+Mar 30 2018 : 3:42:59 PM  : INFO : fn_Driver : strSINO 1
+Mar 30 2018 : 3:42:59 PM  : INFO : fn_Driver : strTestCaseName TC1
+Mar 30 2018 : 3:42:59 PM  : INFO : fn_Driver : strTestScenario Sc1
+Mar 30 2018 : 3:42:59 PM  : INFO : fn_Driver : strTestScenarioDesc 
+Mar 30 2018 : 3:42:59 PM  : INFO : fn_Driver : strTestIteration 1
+Mar 30 2018 : 3:42:59 PM  : INFO : fn_Driver : strErrorHandler NEXT_ITERATION
+Mar 30 2018 : 3:42:59 PM  : INFO : fn_Driver : strTestCondition 
+Mar 30 2018 : 3:42:59 PM  : DEBUG : fn_Driver : strSQLQuery :SELECT * FROM [TestScript$] where TestScenario='Sc1'
+Mar 30 2018 : 3:42:59 PM  : FNENTRY : fn_ConnectExcelDB : Inside the Function
+Mar 30 2018 : 3:43:00 PM  : DEBUG : fn_Driver : Fetching test data for corresponding Test Iteration
+Mar 30 2018 : 3:43:00 PM  : DEBUG : fn_Driver : strSQLQuery :SELECT * FROM [TestData$] where TestCaseName='TC1' and TestIteration=1
+Mar 30 2018 : 3:43:00 PM  : FNENTRY : fn_ConnectExcelDB : Inside the Function
+Mar 30 2018 : 3:43:00 PM  : DEBUG : fn_Driver : Test Data Count from Data Sheet 18
+Mar 30 2018 : 3:43:00 PM  : DEBUG : fn_Driver : *******Test execution of Test case [TC1] and Iteration [1] *****
+Mar 30 2018 : 3:43:00 PM  : FNENTRY : fn_ExecuteTestCase : Inside the Function
+Mar 30 2018 : 3:43:00 PM  : DEBUG : fn_ExecuteTestCase : Executing the function [LaunchApplicationOnIE]
+Mar 30 2018 : 3:43:00 PM  : FNENTRY : LaunchApplicationOnIE : Inside Function

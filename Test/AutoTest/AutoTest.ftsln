@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.3.0
+Project("") = "AutoTest", "AutoTest\Test.tsp", "F5E7DAC1-E3A9-42EE-9708-9DA74531B86F"
+	ProjectSection(ProjectMetadata) = HP.UFT.ProjectSystem.Dynamic.ProjectMetadata
+		PathInformation = C:\AutoFramework\Test\AutoTest\AutoTest\Test.tsp
+		Keyword = QTP
+		OpenAsReadOnly = False
+		BaselineId = 
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		F5E7DAC1-E3A9-42EE-9708-9DA74531B86F.Debug|Any CPU.Build.0 = Debug|Any CPU
+		F5E7DAC1-E3A9-42EE-9708-9DA74531B86F.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		F5E7DAC1-E3A9-42EE-9708-9DA74531B86F.Release|Any CPU.Build.0 = Release|Any CPU
+		F5E7DAC1-E3A9-42EE-9708-9DA74531B86F.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

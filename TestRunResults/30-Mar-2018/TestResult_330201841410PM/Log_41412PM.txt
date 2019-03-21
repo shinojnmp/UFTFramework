@@ -1,0 +1,3 @@
+Mar 30 2018 : 4:14:12 PM  : FNENTRY : fn_FileExists : Inside the Function
+Mar 30 2018 : 4:14:12 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestRunResults\30-Mar-2018\TestResult_330201841410PM\Log_41412PM.txt exists
+Mar 30 2018 : 4:14:12 PM  : DEBUG : fn_CreateTextFile : Successfully created Text File C:\AutoFramework\TestRunResults\30-Mar-2018\TestResult_330201841410PM\Log_41412PM.txt

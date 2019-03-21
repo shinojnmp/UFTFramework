@@ -1,0 +1,20 @@
+Mar 10 2018 : 12:31:44 PM  : INFO : fn_FileExists : Inside the Function
+Mar 10 2018 : 12:31:44 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestRunResults\10-Mar-2018\TestResult_3102018123144PM\Log_123144PM.txt exists
+Mar 10 2018 : 12:31:44 PM  : DEBUG : fn_CreateTextFile : Successfully created Text File C:\AutoFramework\TestRunResults\10-Mar-2018\TestResult_3102018123144PM\Log_123144PM.txt
+Mar 10 2018 : 12:31:44 PM  : INFO : fn_CloseProcessByname : Inside the Function
+Mar 10 2018 : 12:31:44 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process EXCEL.EXE
+Mar 10 2018 : 12:31:44 PM  : INFO : fn_CloseProcessByname : Inside the Function
+Mar 10 2018 : 12:31:44 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process IEXPLORE.EXE
+Mar 10 2018 : 12:31:44 PM  : INFO : fn_Driver : Verifying the test resources
+Mar 10 2018 : 12:31:47 PM  : INFO : fn_ValidateFrameworResources : Inside the Function
+Mar 10 2018 : 12:31:47 PM  : INFO : fn_FileExists : Inside the Function
+Mar 10 2018 : 12:31:47 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestDriver\TestDriver.xls exists
+Mar 10 2018 : 12:31:47 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 12:31:50 PM  : DEBUG : fn_ValidateExcelSheetName : Driver sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 12:31:50 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 12:31:52 PM  : DEBUG : fn_ValidateExcelSheetName : TestScript sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 12:31:52 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 12:31:55 PM  : DEBUG : fn_ValidateExcelSheetName : TestData sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 12:31:55 PM  : INFO : fn_Driver : import the driver sheet to data table (GLobal sheet)
+Mar 10 2018 : 12:31:55 PM  : INFO : fn_ImportDriverSheet : Inside the Function
+Mar 10 2018 : 12:31:55 PM  : DEBUG : fn_Driver : Navigating through the data table and checking for execution status = YES

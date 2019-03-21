@@ -1,0 +1,62 @@
+Mar 11 2018 : 2:57:15 PM  : INFO : fn_FileExists : Inside the Function
+Mar 11 2018 : 2:57:15 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestRunResults\11-Mar-2018\TestResult_311201825715PM\Log_25715PM.txt exists
+Mar 11 2018 : 2:57:15 PM  : DEBUG : fn_CreateTextFile : Successfully created Text File C:\AutoFramework\TestRunResults\11-Mar-2018\TestResult_311201825715PM\Log_25715PM.txt
+Mar 11 2018 : 2:57:15 PM  : INFO : fn_CloseProcessByname : Inside the Function
+Mar 11 2018 : 2:57:15 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process EXCEL.EXE
+Mar 11 2018 : 2:57:15 PM  : INFO : fn_CloseProcessByname : Inside the Function
+Mar 11 2018 : 2:57:15 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process IEXPLORE.EXE
+Mar 11 2018 : 2:57:15 PM  : INFO : fn_Driver : Verifying the test resources
+Mar 11 2018 : 2:57:15 PM  : INFO : fn_ValidateFrameworResources : Inside the Function
+Mar 11 2018 : 2:57:15 PM  : INFO : fn_FileExists : Inside the Function
+Mar 11 2018 : 2:57:15 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestDriver\TestDriver.xls exists
+Mar 11 2018 : 2:57:15 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 11 2018 : 2:57:17 PM  : DEBUG : fn_ValidateExcelSheetName : Driver sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 11 2018 : 2:57:18 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 11 2018 : 2:57:20 PM  : DEBUG : fn_ValidateExcelSheetName : TestScript sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 11 2018 : 2:57:20 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_ValidateExcelSheetName : TestData sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 11 2018 : 2:57:22 PM  : INFO : fn_Driver : import the driver sheet to data table (GLobal sheet)
+Mar 11 2018 : 2:57:22 PM  : INFO : fn_ImportDriverSheet : Inside the Function
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : Navigating through the data table and checking for execution status = YES
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : Test Execution start time 3/11/2018 2:57:22 PM
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : Data Table Row 1 Found Test execution status as YES
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : Deleting the content from the test script function array
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : strSINO 1
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : strTestCaseName TC1
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : strTestScenario Sc1
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : strTestScenarioDesc 
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : strTestIteration 1
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : strErrorHandler NEXT_ITERATION
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : strTestCondition 
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : strSQLQuery :SELECT * FROM [TestScript$] where TestScenario='Sc1'
+Mar 11 2018 : 2:57:22 PM  : INFO : fn_ConnectExcelDB : Inside the Function
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : Fetching test data for corresponding Test Iteration
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : strSQLQuery :SELECT * FROM [TestData$] where TestCaseName='TC1' and TestIteration=1
+Mar 11 2018 : 2:57:22 PM  : INFO : fn_ConnectExcelDB : Inside the Function
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : Test Data Count from Data Sheet 18
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_Driver : *******Test execution of Test case [TC1] and Iteration [1] *****
+Mar 11 2018 : 2:57:22 PM  : INFO : fn_ExecuteTestCase : Inside the Function
+Mar 11 2018 : 2:57:22 PM  : DEBUG : fn_ExecuteTestCase : Executing the function [LaunchApplicationOnIE]
+Mar 11 2018 : 2:57:22 PM  : INFO : LaunchApplicationOnIE : Inside Function
+Mar 11 2018 : 2:57:33 PM  : DEBUG : LaunchApplicationOnIE : Launched the application [FACEBOOK]
+Mar 11 2018 : 2:57:33 PM  : DEBUG : fn_ExecuteTestCase : Execution of Function [LaunchApplicationOnIE] is [COMPLETED]
+Mar 11 2018 : 2:57:33 PM  : DEBUG : fn_ExecuteTestCase : Executing the function [fn_LoginApplication]
+Mar 11 2018 : 2:57:33 PM  : DEBUG : fn_object_Exist : inside Function
+Mar 11 2018 : 2:57:49 PM  : DEBUG : fn_object_Exist : [Facebook Page] exists
+Mar 11 2018 : 2:57:49 PM  : DEBUG : fn_object_Exist : inside Function
+Mar 11 2018 : 2:57:51 PM  : DEBUG : fn_object_Exist : [Facebook UserName] exists
+Mar 11 2018 : 2:57:52 PM  : DEBUG : fn_WebEdit_Set : Add value [shinojnmp@gmail.com] to the field [Facebook UserName]
+Mar 11 2018 : 2:57:52 PM  : DEBUG : fn_WebEdit_SetSecure : Inside Function
+Mar 11 2018 : 2:57:53 PM  : DEBUG : fn_WebEdit_SetSecure : Add value [*********] to the field [Facebook Password]
+Mar 11 2018 : 2:57:53 PM  : INFO : fn_WebButton_Click : Inside Function
+Mar 11 2018 : 2:57:55 PM  : INFO : fn_WebButton_Click : Successfully clicked the Button  [Login]
+Mar 11 2018 : 2:57:55 PM  : DEBUG : fn_ExecuteTestCase : Execution of Function [fn_LoginApplication] is [COMPLETED]
+Mar 11 2018 : 2:57:55 PM  : DEBUG : fn_ExecuteTestCase : Executing the function [fn_LogoutApplication]
+Mar 11 2018 : 2:57:55 PM  : INFO : fn_WebButton_Click : Inside Function
+Mar 11 2018 : 2:58:05 PM  : INFO : fn_WebButton_Click : Successfully clicked the Button  [Account Setting]
+Mar 11 2018 : 2:58:05 PM  : DEBUG : fn_object_Exist : inside Function
+Mar 11 2018 : 2:58:36 PM  : ERROR : fn_object_Exist : [Logout] does NOT exist
+Mar 11 2018 : 2:58:36 PM  : ERROR : fn_ExecuteTestCase : Execution of Function [fn_LogoutApplication] is [FAILED]
+Mar 11 2018 : 2:58:36 PM  : ERROR : fn_Driver : Test execution of Test case [TC1] and Iteration [1] is [Failed]
+Mar 11 2018 : 2:58:36 PM  : DEBUG : fn_Driver : Activating Error Handler [NEXT_ITERATION]
+Mar 11 2018 : 2:58:36 PM  : DEBUG : fn_Driver : Test Execution End time 3/11/2018 2:58:36 PM

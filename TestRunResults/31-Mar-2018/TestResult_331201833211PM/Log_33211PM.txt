@@ -1,0 +1,65 @@
+Mar 31 2018 : 3:32:11 PM  : FNENTRY : fn_FileExists : Inside the Function
+Mar 31 2018 : 3:32:11 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestRunResults\31-Mar-2018\TestResult_331201833211PM\Log_33211PM.txt exists
+Mar 31 2018 : 3:32:11 PM  : DEBUG : fn_CreateTextFile : Successfully created Text File C:\AutoFramework\TestRunResults\31-Mar-2018\TestResult_331201833211PM\Log_33211PM.txt
+Mar 31 2018 : 3:32:11 PM  : FNENTRY : fn_CloseProcessByname : Inside the Function
+Mar 31 2018 : 3:32:11 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process EXCEL.EXE
+Mar 31 2018 : 3:32:11 PM  : FNENTRY : fn_CloseProcessByname : Inside the Function
+Mar 31 2018 : 3:32:17 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process IEXPLORE.EXE
+Mar 31 2018 : 3:32:17 PM  : INFO : fn_Driver : Verifying the test resources
+Mar 31 2018 : 3:32:17 PM  : FNENTRY : fn_ValidateFrameworResources : Inside the Function
+Mar 31 2018 : 3:32:17 PM  : FNENTRY : fn_FileExists : Inside the Function
+Mar 31 2018 : 3:32:17 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestDriver\TestDriver.xls exists
+Mar 31 2018 : 3:32:17 PM  : FNENTRY : fn_ValidateExcelSheetName : Inside the Function
+Mar 31 2018 : 3:32:19 PM  : DEBUG : fn_ValidateExcelSheetName : Driver sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 31 2018 : 3:32:19 PM  : FNENTRY : fn_ValidateExcelSheetName : Inside the Function
+Mar 31 2018 : 3:32:22 PM  : DEBUG : fn_ValidateExcelSheetName : TestScript sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 31 2018 : 3:32:22 PM  : FNENTRY : fn_ValidateExcelSheetName : Inside the Function
+Mar 31 2018 : 3:32:24 PM  : DEBUG : fn_ValidateExcelSheetName : TestData sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 31 2018 : 3:32:24 PM  : INFO : fn_Driver : import the driver sheet to data table (GLobal sheet)
+Mar 31 2018 : 3:32:24 PM  : INFO : fn_ImportDriverSheet : Inside the Function
+Mar 31 2018 : 3:32:24 PM  : DEBUG : fn_Driver : Navigating through the data table and checking for execution status = YES
+Mar 31 2018 : 3:32:24 PM  : DEBUG : fn_Driver : Test Execution start time 3/31/2018 3:32:24 PM
+Mar 31 2018 : 3:32:24 PM  : DEBUG : fn_Driver : Data Table Row 1 Found Test execution status as YES
+Mar 31 2018 : 3:32:24 PM  : DEBUG : fn_Driver : Deleting the content from the test script function array
+Mar 31 2018 : 3:32:24 PM  : INFO : fn_Driver : strSINO 1
+Mar 31 2018 : 3:32:24 PM  : INFO : fn_Driver : strTestCaseName TC1
+Mar 31 2018 : 3:32:24 PM  : INFO : fn_Driver : strTestScenario Sc1
+Mar 31 2018 : 3:32:24 PM  : INFO : fn_Driver : strTestScenarioDesc 
+Mar 31 2018 : 3:32:24 PM  : INFO : fn_Driver : strTestIteration 1
+Mar 31 2018 : 3:32:24 PM  : INFO : fn_Driver : strErrorHandler NEXT_ITERATION
+Mar 31 2018 : 3:32:24 PM  : INFO : fn_Driver : strTestCondition 
+Mar 31 2018 : 3:32:24 PM  : DEBUG : fn_Driver : strSQLQuery :SELECT * FROM [TestScript$] where TestScenario='Sc1'
+Mar 31 2018 : 3:32:24 PM  : FNENTRY : fn_ConnectExcelDB : Inside the Function
+Mar 31 2018 : 3:32:25 PM  : DEBUG : fn_Driver : Fetching test data for corresponding Test Iteration
+Mar 31 2018 : 3:32:25 PM  : DEBUG : fn_Driver : strSQLQuery :SELECT * FROM [TestData$] where TestCaseName='TC1' and TestIteration=1
+Mar 31 2018 : 3:32:25 PM  : FNENTRY : fn_ConnectExcelDB : Inside the Function
+Mar 31 2018 : 3:32:25 PM  : DEBUG : fn_Driver : Test Data Count from Data Sheet 18
+Mar 31 2018 : 3:32:25 PM  : DEBUG : fn_Driver : *******Test execution of Test case [TC1] and Iteration [1] *****
+Mar 31 2018 : 3:32:25 PM  : FNENTRY : fn_ReportResult_TCHeader : Inside Function
+Mar 31 2018 : 3:32:25 PM  : FNEXIT : fn_ReportResult_TCHeader : EXIT Function
+Mar 31 2018 : 3:32:25 PM  : FNENTRY : fn_ExecuteTestCase : Inside the Function
+Mar 31 2018 : 3:32:25 PM  : DEBUG : fn_ExecuteTestCase : Executing the function [LaunchApplicationOnIE]
+Mar 31 2018 : 3:32:25 PM  : FNENTRY : LaunchApplicationOnIE : Inside Function
+Mar 31 2018 : 3:33:41 PM  : DEBUG : LaunchApplicationOnIE : Launched the application [FACEBOOK]
+Mar 31 2018 : 3:33:41 PM  : FNENTRY : fn_ReportResult : Inside Function
+Mar 31 2018 : 3:38:38 PM  : DEBUG : fn_ReportResult : Adding the test step as HTML Tanle data
+Mar 31 2018 : 3:40:54 PM  : DEBUG : fn_ReportResult:To Launch the application on IE : Launched the application [FACEBOOK]::PASSED
+Mar 31 2018 : 3:40:54 PM  : FNEXIT : fn_ReportResult : EXIT Function
+Mar 31 2018 : 3:40:57 PM  : DEBUG : fn_ExecuteTestCase : Execution of Function [LaunchApplicationOnIE] is [COMPLETED]
+Mar 31 2018 : 3:40:59 PM  : DEBUG : fn_ExecuteTestCase : Executing the function [fn_LoginApplication]
+Mar 31 2018 : 3:40:59 PM  : FNENTRY : fn_object_Exist : inside Function
+Mar 31 2018 : 3:41:14 PM  : ERROR : fn_object_Exist : [Facebook Page] does NOT exist
+Mar 31 2018 : 3:41:20 PM  : ERROR : fn_ExecuteTestCase : Execution of Function [fn_LoginApplication] is [FAILED]
+Mar 31 2018 : 3:41:22 PM  : ERROR : fn_Driver : Test execution of Test case [TC1] and Iteration [1] is [Failed]
+Mar 31 2018 : 3:41:24 PM  : FNENTRY : fn_ReportResult_TCTailer : Inside Function
+Mar 31 2018 : 3:41:24 PM  : DEBUG : fn_ReportResult_TCTailer : Appending the tailer in the  HTML file
+Mar 31 2018 : 3:41:24 PM  : DEBUG : fn_ReportResult_TCTailer : Reading all content from HTML file
+Mar 31 2018 : 3:41:24 PM  : DEBUG : fn_ReportResult_TCTailer : writing the updated content to the HTML file
+Mar 31 2018 : 3:41:24 PM  : FNEXIT : fn_ReportResult_TCTailer : EXIT Function
+Mar 31 2018 : 3:41:25 PM  : DEBUG : fn_Driver : Activating Error Handler [NEXT_ITERATION]
+Mar 31 2018 : 3:41:25 PM  : FNENTRY : fn_ReportResult_Consolidate : Inside Function
+Mar 31 2018 : 3:41:25 PM  : DEBUG : fn_ReportResult_Consolidate : Rading the existing HTML file to replace the variables
+Mar 31 2018 : 3:41:25 PM  : DEBUG : fn_ReportResult_Consolidate : Writing updated HTML string back to the HTML file
+Mar 31 2018 : 3:41:25 PM  : DEBUG : fn_ReportResult_Consolidate : Appending the final HTML Tag string to the HTML file
+Mar 31 2018 : 3:41:25 PM  : FNEXIT : fn_ReportResult_TCHeader : EXIT Function
+Mar 31 2018 : 3:41:25 PM  : DEBUG : fn_Driver : Test Execution End time 3/31/2018 3:41:25 PM

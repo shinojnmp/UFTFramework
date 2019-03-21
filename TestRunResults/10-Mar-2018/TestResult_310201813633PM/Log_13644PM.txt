@@ -1,0 +1,21 @@
+Mar 10 2018 : 1:37:51 PM  : INFO : fn_FileExists : Inside the Function
+Mar 10 2018 : 1:37:51 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestRunResults\10-Mar-2018\TestResult_310201813633PM\Log_13644PM.txt exists
+Mar 10 2018 : 1:37:51 PM  : DEBUG : fn_CreateTextFile : Successfully created Text File C:\AutoFramework\TestRunResults\10-Mar-2018\TestResult_310201813633PM\Log_13644PM.txt
+Mar 10 2018 : 1:38:07 PM  : INFO : fn_CloseProcessByname : Inside the Function
+Mar 10 2018 : 1:38:07 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process EXCEL.EXE
+Mar 10 2018 : 1:38:10 PM  : INFO : fn_CloseProcessByname : Inside the Function
+Mar 10 2018 : 1:38:10 PM  : DEBUG : fn_CloseProcessByname : Successfully Closed the process IEXPLORE.EXE
+Mar 10 2018 : 1:38:14 PM  : INFO : fn_Driver : Verifying the test resources
+Mar 10 2018 : 1:38:19 PM  : INFO : fn_ValidateFrameworResources : Inside the Function
+Mar 10 2018 : 1:38:25 PM  : INFO : fn_FileExists : Inside the Function
+Mar 10 2018 : 1:38:25 PM  : DEBUG : fn_FileExists : File C:\AutoFramework\TestDriver\TestDriver.xls exists
+Mar 10 2018 : 1:38:26 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 1:38:30 PM  : DEBUG : fn_ValidateExcelSheetName : Driver sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 1:38:57 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 1:38:59 PM  : DEBUG : fn_ValidateExcelSheetName : TestScript sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 1:39:01 PM  : INFO : fn_ValidateExcelSheetName : Inside the Function
+Mar 10 2018 : 1:39:03 PM  : DEBUG : fn_ValidateExcelSheetName : TestData sheet exists in excel C:\AutoFramework\TestDriver\TestDriver.xls
+Mar 10 2018 : 1:39:07 PM  : INFO : fn_Driver : import the driver sheet to data table (GLobal sheet)
+Mar 10 2018 : 1:39:12 PM  : INFO : fn_ImportDriverSheet : Inside the Function
+Mar 10 2018 : 1:39:23 PM  : DEBUG : fn_Driver : Navigating through the data table and checking for execution status = YES
+Mar 10 2018 : 1:39:25 PM  : DEBUG : fn_Driver : Test Execution start time 3/10/2018 1:39:24 PM

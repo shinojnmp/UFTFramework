@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+			<title>ICT Automation</title>
+	
+	<style>
+		body{
+			padding: 0px;
+			border: 0px;
+			margin: 0px auto;
+		}
+		#bodylike{
+			min-width: 1150px;
+			min-height: 100px;
+		}
+		#header{
+			height: 100px;
+			width: 96%;
+			background-color: #00aaee;
+			font-family: Tahoma, Geneva, sans-serif;
+			font-weight: bold;
+			font-size: 50px;
+			color: white;
+			padding-left:4%;
+			padding-top: 30px;
+		}
+		#navbar{
+			width: 25%;
+			height: 500px;
+			align : left;
+			background-color : white;
+			float: left;
+			overflow: auto;
+		}
+		#navbar ul{
+			list-style-type:  none;
+		}
+		#navbar ul li{
+			font-weight: 600;
+			cursor: pointer;
+			text-decoration: none;
+			color: black;
+		}
+		.showind {
+			height: 500px;
+			overflow: auto;
+			width: 75%;
+			display: none;
+			box-shadow: 10px -10px 20px #DDDDDD inset;
+			float:left;
+			margin-left: 0px;
+			border-radius: 10px;
+		}
+		.container{
+			min-height: 50px;
+			width: 80%;
+			margin: 1% 10%;
+			padding: 0px;
+		}
+		.stripe{
+			height: 50px;
+			width: 100%;
+			box-shadow: -2px -2px 5px #CCCCCC inset;
+			border-radius:5px;
+			float: left;
+			margin-top: 2px;
+			vertical-align: middle;
+			padding-top: 0px;
+			padding-bottom: 20px;
+		}
+		.label{
+			min-width:15%;
+			font-size: 21px;
+			font-family: Segoe UI;
+			float:left;
+			margin-left: 4%;
+			text-align: top;
+			padding-bottom: 5px;
+		}
+		.label a{
+			text-decoration: none;
+		}
+		.content{
+			min-height: 50px;
+			width: 100%;
+			box-shadow: -2px -2px 5px #CCCCCC inset;
+			border-radius:5px;
+			float: left;
+			margin-top: 2px;
+			vertical-align: middle;
+			padding-top: 0px;
+			padding-bottom: 20px;
+			display: none;
+			padding: 0px;
+			margin: 0% auto;
+			font-family: Segoe UI;
+			font-size: 17px;
+		}
+		.table{
+			min-height : 50px;
+			width: 80%;
+			margin: 1% 10%;
+		}
+		.table th {
+			box-shadow: 1px 1px 3px #CCCCCC;
+			min-width: 10%;
+		}
+		.table td{
+			box-shadow: 1px 1px 3px #CCCCCC;
+			min-width: 10%;
+		}
+	</style>
+                            
+	<script src="jquery-2.1.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			toggle = function(id, index){
+				$(".togclass").html("<b>+</b>Expand");
+				if($("#content-"+id).css("display") != "none"){
+					$(".content").hide();
+					$("#content-"+id).show();
+				}
+				else{
+					$(".content").hide();
+					$(".list_item").css("color","#000000");
+					$(".showind").hide();
+				}
+				if($("#content-"+id).css("display") == "none"){
+					$("#content-"+id).show(600, function(){
+						$("#toggle_"+id).html("<b>-</b>Contract");
+					});
+				}
+				else{
+					$("#content-"+id).hide(600, function(){
+						$("#toggle_"+id).html("<b>+</b>Expand");
+					});
+				}
+				$("#li_"+index).css("color","#CCCCCC");
+				$("#div_"+index).show();
+			}
+			showThis = function(id, li){
+				$(".showind").hide();
+				$(".list_item").css("color","#000000");
+				$("#"+li).css("color","#CCCCCC");
+				$("#"+id).show();                
+			}
+			showDiv = function(id){
+				$(".showind").hide();
+				$("#"+id).show();                
+			}
+		});
+	</script>
+	</head>
+        <body>
+        <div id = "bodylike">
+        <div id = "header" align = 'center' >
+            FACEBOOK
+			<font style = 'font-size:22px;font-weight:bold;margin-top:20px;margin-left:10%;' align = 'left'> Date: 3/31/2018</font>
+		</div>
+		<div class = "container">
+                            
+        <div class = "stripe" >
+			 <div class = "stripe">
+                <p class ="label">Environment & Execution Details</p>
+                <p style = "font-size: 21px; font-family: Segoe UI; float:right; margin-right: 20%;"><a style = "text-decoration: none;" href = '#' class = 'togclass' id = 'toggle_0' onclick = 'toggle(0,0)'><b>+</b>Expand</a><p>
+            </div>
+            <div class = "content" id = "content-0">
+                <table class = "table" align = "center" cellspacing = '2' cellpadding = '5'>
+                    
+					<tr><td align = 'center' colspan='2'> <b> Environment Details </b>
+					<tr><td align = 'center'>OS Type<td align = 'center'>Windows 10
+					<tr><td align = 'center'>OS Version<td align = 'center'>10.0.14393
+					<tr><td align = 'center'>Executed By<td align = 'center'>smoottap
+					
+					<tr><td align = 'center' colspan='2'> <b>Execution Details </b>
+					<tr><td align = 'center'>Date<td align = 'center'>3/31/2018
+					<tr><td align = 'center'>Start Time<td align = 'center'>3/31/2018 3:32:24 PM
+					<tr><td align = 'center'>End Time<td align = 'center'>3/31/2018 3:41:25 PM
+					<tr><td align = 'center'>Duration<td align = 'center'>0Hrs:9Min:1Sec:
+					
+                </table>
+            </div>
+			
+			<div class = "stripe">
+                <p class ="label">Test Execution Status </p>
+                <p style = "font-size: 21px; font-family: Segoe UI; float:right; margin-right: 20%;"><a style = "text-decoration: none;" href = '#' class = 'togclass' id = 'toggle_1' onclick = 'toggle(1,2)'><b>+</b>Expand</a><p>
+            </div>
+			
+			<div class = "content" id = "content-1">
+                <table class = "table" align = "center" cellspacing = '4' cellpadding = '10'>
+				
+                    <tr><th align = 'center'>Total Test Cases<th align = 'center'><font color="green">Passed<th align = 'center'><font color="red">Failed<th align = 'center'><font color="blue">Not Executed				
+					<tr><td align = 'center'>1<td align = 'center'>0<td align = 'center'>1<td align = 'center'>0<td align = 'center'>
+                </table>
+            </div>
+			
+			<div class = "stripe">
+                <p class ="label">Detailed Execution Steps </p>
+                <p style = "font-size: 21px; font-family: Segoe UI; float:right; margin-right: 20%;"><a style = "text-decoration: none;" href = '#' class = 'togclass' id = 'toggle_2' onclick = 'toggle(2,2)'><b>+</b>Expand</a><p>
+            </div>
+			
+			<div class = "content" id = "content-2">
+                <table class = "table" align = "center" cellspacing = '5' cellpadding = '10'>
+					<tr><td align = 'Left' colspan='2'> <b> TC_1 </b><td align = 'right'>Status:<td align = 'left'><font color="green">Passed</font>
+                    <tr><th align = 'center'>TIME<th align = 'center'>Expected Steps<th align = 'center'>Actual Steps<th align = 'center'>Status	
+					
+					<tr><td align = 'center'>1<td align = 'center'>LogintoSI<td align = 'center'>LoginSuccessful<td align = 'center'><font color="green">Passed</font>
+					<tr><td align = 'center'>2<td align = 'center'>Cick<td align = 'center'>ClickSuccessful<td align = 'center'><font color="red">Failed</font>
+                </table>
+				
+				<table class = "table" align = "center" cellspacing = '5' cellpadding = '10'>
+					<tr><td align = 'Left' colspan='2'> <b> TC_2 </b><td align = 'right'>Status:<td align = 'left'><font color="green">Passed</font>
+                    <tr><th align = 'center'>TIME<th align = 'center'>Expected Steps<th align = 'center'>Actual Steps<th align = 'center'>Status	
+					
+					<tr><td align = 'center'>1<td align = 'center'>LogintoSI<td align = 'center'>LoginSuccessful<td align = 'center'><font color="green">Passed</font>
+					<tr><td align = 'center'>2<td align = 'center'>Cick<td align = 'center'>ClickSuccessful<td align = 'center'><font color="red">Failed</font>
+                </table>
+				
+        <table class = "table" align = "center" cellspacing = '5' cellpadding = '10'>
+<tr><td align = 'Left' colspan='2'> <b>1_TC1_1</b><td align = 'right'>Status:<td align = 'left'><font color="red">FAILED</font>
+<tr><th align = 'center'>TIME<th align = 'center'>Expected Steps<th align = 'center'>Actual Steps<th align = 'center'>Status
+<tr><td align = 'center'>3:38:39 PM<td align = 'center'>To Launch the application on IE<td align = 'center'>Launched the application [FACEBOOK]<td align = 'center'><font color="green">PASSED</font>
+</table>
+</div>
+</div>
+</div>
+</body>
+</html>

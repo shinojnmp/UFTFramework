@@ -1,0 +1,74 @@
+<Environment>
+    <Variable>
+        <Name>FrameworkRootFolder</Name>
+        <Value>C:\AutoFramework</Value>
+    </Variable>
+    <Variable>
+        <Name>ConfigFolder</Name>
+        <Value>Configuration</Value>
+    </Variable>
+    <Variable>
+        <Name>FunctionLibraryFolder</Name>
+        <Value>FunctionLibrary</Value>
+    </Variable>
+    <Variable>
+        <Name>ObjectRepositoryFolder</Name>
+        <Value>ObjectRepository</Value>
+    </Variable>
+	  <Variable>
+        <Name>TestDriverFolder</Name>
+        <Value>TestDriver</Value>
+    </Variable>
+	  <Variable>
+        <Name>TestRunResultFolder</Name>
+        <Value>TestRunResults</Value>
+    </Variable>
+	
+	
+	<Variable>
+        <Name>TestDriverName</Name>
+        <Value>TestDriver.xls</Value>
+    </Variable>
+	<Variable>
+        <Name>TestDriverSheets</Name>
+        <Value>Driver|TestScript|TestData</Value>
+    </Variable>
+	
+	<Variable>
+        <Name>TestResultTemplate</Name>
+        <Value>TestResultTemplate.html</Value>
+    </Variable>
+	
+	<Variable>
+        <Name>Delay_Small</Name>
+        <Value>10</Value>
+    </Variable>
+	
+	<Variable>
+        <Name>Delay_Medium</Name>
+        <Value>10</Value>
+    </Variable>
+	
+	<Variable>
+        <Name>Delay_High</Name>
+        <Value>10</Value>
+    </Variable>
+	
+	<Variable>
+        <Name>Appliaction_Name</Name>
+        <Value>FACEBOOK</Value>
+    </Variable>
+	
+	<Variable>
+        <Name>Appliaction_URL</Name>
+        <Value>https://www.facebook.com/</Value>
+    </Variable>
+	
+
+	<Variable>
+        <Name>LOGLEVEL</Name>
+        <Value>ERROR|DEBUG|INFO|FNENTRY|FNEXIT</Value>
+    </Variable>
+	
+
+</Environment>
